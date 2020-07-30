@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               CircleAvatar(
-                backgroundImage: AssetImage('images/jean.jpg'),
+                backgroundImage: AssetImage('images/me.jpg'),
                 radius: 50.0,
               ),
               SizedBox(height: 10.0),
@@ -27,7 +27,10 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              Container(width: double.infinity),
             ],
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
           ),
         ),
       ),
