@@ -54,7 +54,7 @@ flutter:
         - asset: fonts/NanumGothicCoding-Regular.ttf
     - family: Source Sans Pro
       fonts:
-        - asset: fonts/SourceSansPro-Regular.ttf
+        - asset: fonts/SourceSansPro-Light.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
